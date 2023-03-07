@@ -1,0 +1,44 @@
+.Main-Container {
+  width: 55%;
+  height: 150vh;
+  background-color: white;
+  border: 5px solid black;
+}
+.App-Container{
+  width: 90%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.3rem;
+  word-spacing: 3px;
+}
+
+.Contact{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.Mail,.phone,.Github,.LinkedIn{
+  display: flex;
+  padding: 8px;
+  gap: 5px;
+}
+
+.Career{
+  display: flex;
+  padding-left: 5%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  border-bottom: 1px solid black;
+  
+}
