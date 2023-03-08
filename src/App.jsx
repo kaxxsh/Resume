@@ -9,6 +9,12 @@ import "./App.css";
 function App() {
   let LinkedIn = "https://www.linkedin.com/in/kameshwaran-m-001a06214";
   let GitHub = "https://github.com/kaxxsh";
+  let CertificateSecurity =
+    "https://drive.google.com/file/d/15aPcGYsrFQvtRChZFTrZGN0H8csBBv6m/view";
+  let CertificateJava =
+    "https://udemy-certificate.s3.amazonaws.com/pdf/UC-66f287f7-c85c-40b2-93d7-6cf09027a94d.pdf";
+  let CertificateJavascript =
+    "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f3eadf46-fdf2-40ba-851b-df5501ce80ca.pdf";
   return (
     <div className="App">
       <div className="Main-Container">
@@ -171,6 +177,84 @@ function App() {
                 </div>
                 <div className="Project-Domain">ReactJS,HTML,CSS</div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="Main-Container">
+        <div className="Certificate-Container">
+          <div className="Certificate-Box">
+            <div className="Certificate-Title">Certificate</div>
+          </div>
+          <div className="Certificate-Block">
+            <div className="certificate-Content">
+              <div className="Certificate">
+                <a className="certificate-Design" href={CertificateSecurity}>
+                  Security Fundamentals
+                </a>
+                <div className="Institude">Microsoft</div>
+              </div>
+              <div className="Certificate">
+                <a className="certificate-Design" href={CertificateJava}>
+                  Java Programming
+                </a>
+                <div className="Institude">Udemy</div>
+              </div>
+            </div>
+            <div className="certificate-Content">
+              <div className="Certificate">
+                <a className="certificate-Design" href={CertificateJavascript}>
+                  Javascript
+                </a>
+                <div className="Institude">Udemy</div>
+              </div>
+              <div className="Certificate">
+                <div className="Certificate-Course"></div>
+                <div className="Institude"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="Interests-Container">
+          <div className="Interests-Box">
+            <div className="Interests-Title">Interests</div>
+          </div>
+          <div className="Interests-Block">
+            <div className="Course-Interests">
+              <div className="Domain-Interests">NFT Technology</div>
+              <div className="Domain-Interests">Web Development </div>
+              <div className="Domain-Interests">Ethical Hacking</div>
+              <div className="Domain-Interests">Crypto Currency</div>
+            </div>
+          </div>
+        </div>
+        <div className="Language-Container">
+          <div className="Language-Box">
+            <div className="Language-Title">Language</div>
+          </div>
+          <div className="Language-Block">
+            <div className="Language-Known">
+              <div className="Languages">Tamil</div>
+              <div className="Languages">English</div>
+            </div>
+          </div>
+        </div>
+        <div className="Career-Container">
+          <div className="Career-Box">
+            <div className="Carrer-Title">Declaration</div>
+          </div>
+          <div className="Carrer-Content">
+            <div className="Carrer-subTitle">
+              I hereby declare that all the information mentioned above is free
+              from error to the best of my knowledge and i bear responsibility
+              for any deviation from them at any later stage
+            </div>
+          </div>
+        </div>
+        <div className="Signature-Container">
+          <div className="Sign-Box">
+            <div className="Sign">
+              Kameshwaran
             </div>
           </div>
         </div>
