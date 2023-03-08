@@ -1,10 +1,10 @@
 .Main-Container {
   width: 55%;
-  height: 150vh;
+  height: 152vh;
   background-color: white;
   border: 5px solid black;
 }
-.App-Container{
+.App-Container {
   width: 90%;
 }
 
@@ -14,31 +14,206 @@
   align-items: center;
 }
 
-.Name{
+.Name {
   display: flex;
   justify-content: center;
   padding: 10px;
+  font-weight: bold;
   font-size: 1.3rem;
   word-spacing: 3px;
 }
 
-.Contact{
+.Contact {
   display: flex;
-  justify-content:space-evenly;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
 }
 
-.Mail,.phone,.Github,.LinkedIn{
+.Connect {
+  display: flex;
+  justify-content: space-evenly;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.Mail,
+.phone,
+.Github,
+.LinkedIn {
   display: flex;
   padding: 8px;
   gap: 5px;
 }
+.Career-Container {
+  height: 15vh;
+  justify-content: center;
+}
 
-.Career{
+.Carrer-Content {
+  width: 100%;
+  height: 10vh;
   display: flex;
-  padding-left: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.Carrer-subTitle {
+  width: 90%;
+}
+
+.Career-Box,
+.Education-Box,
+.Skills-Box,.Project-Box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+}
+.Carrer-Title,
+.Education-Title,
+.Skills-Title,.Project-Title {
+  width: 90%;
   font-weight: bold;
   font-size: 1.2rem;
-  margin-top: 15px;
-  border-bottom: 1px solid black;
-  
+  margin-top: 10px;
+  border-bottom: 3px solid black;
+}
+
+.Education-Container,
+.Skills-Container {
+  width: 100%;
+  height: 40vh;
+}
+
+.Education-Content {
+  width: 90%;
+  height: 35vh;
+  display: flex;
+  transform: translateX(32px);
+}
+
+.Education-TimeLine {
+  width: 25%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.TimeLine {
+  width: 90%;
+  height: 10vh;
+}
+
+.Education-Details {
+  width: 40%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Education {
+  width: 90%;
+  height: 10vh;
+}
+
+.Course {
+  font-weight: bold;
+}
+.Skills-Content {
+  width: 90%;
+  height: 35vh;
+  display: flex;
+  transform: translateX(42px);
+  align-items: center;
+  gap: 20px;
+}
+.Skills-Block {
+  height: 33vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.Skills {
+  width: 90%;
+  height: 7.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Domain,.Project-Name {
+  font-weight: bold;
+}
+
+.Domain-Details {
+  color: hsl(231, 11%, 63%);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.Project-Container{
+  width: 100%;
+  height: 42vh;
+}
+
+.Project-Content{
+  width: 100%;
+  height: 37vh;
+  display: flex;
+}
+
+.Project-TimeLine{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateX(35px);
+
+}
+.Timeline{
+  width: 90%;
+  height: 8vh;
+}
+
+.Project-Details{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: translateX(35px);
+}
+
+.Project{
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Project-Description,.Project-Domain{
+  font-size: 0.8rem;
 }
